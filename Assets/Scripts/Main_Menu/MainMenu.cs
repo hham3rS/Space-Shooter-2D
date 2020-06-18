@@ -1,15 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+namespace SpaceShooter.Menu
 {
-    
-    public void LoadGame()
+    public class MainMenu : MonoBehaviour
     {
-        //load the game scene
-        SceneManager.LoadScene(1); //main game scene
+        public void LoadGame()
+        {
+            SceneManager.LoadScene(1);
+        }
     }
-
 }
